@@ -27,7 +27,13 @@ We will build up a publisher that has a DS18B20 as digital temperature sensor an
 
 ## Hardware Setup
 
-TODO: Fritzing image of the publisher + receiver
+### Temperature Publisher
+
+![Temperature Publisher](assets/MQTT-Temperature-Publisher_Breadboard.png)
+
+### Temperature Receiver
+
+![Temperature Receiver](assets/MQTT-Temperature-Receiver_Breadboard.png)
 
 ## Software Setup
 
