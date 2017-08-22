@@ -42,7 +42,8 @@ We will build up a publisher that has a DS18B20 as digital temperature sensor an
 
 ## Resources
 
-TODO...
+ * [Brief overview over MQTT](https://www.slideshare.net/BryanBoyd/mqtt-austin-api)
+ * [JavaFX based MQTT Client](http://www.mqttfx.org/)
 
 ## License
 
