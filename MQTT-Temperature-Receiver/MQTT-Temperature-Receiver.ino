@@ -16,6 +16,9 @@
 // Topic name where from where to receive the temperature
 #define MQTT_TOPIC "mqtt-iot-workshop/device-0/temperature"
 
+// Access point name if no WiFi credentials have been stored
+#define AP_NAME "AP-receiver"
+
 // Alarm Threshold: Turn on LED if temperature is higher
 #define TEMP_WARNING_THRESHOLD 30.0
 
@@ -106,7 +109,7 @@ void connectWifi() {
   //wifiManager.resetSettings();
 
   // Connect to previously stored WiFi or open an ad-hoc Access Point
-  wifiManager.autoConnect();
+  wifiManager.autoConnect(AP_NAME);
 
   // Now you are connected to the WiFi
   Serial.print("WiFi connected with local IP ");
